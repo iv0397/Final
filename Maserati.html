@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maserati - CYG</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- 引入導覽列 -->
+  <div class="navbar-container" id="navbar-container"></div>
+
+  <!-- 頁面內容 -->
+  <h1>Maserati</h1>
+  <!-- 其他內容 -->
+  <img src="mcar.png" alt="Google Maps" class="mcar-image">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- 引入導覽列的JavaScript程式碼 -->
+  <script>
+    $(function() {
+      $("#navbar-container").load("navbar.html");
+    });
+  </script>
+</body>
+</html>

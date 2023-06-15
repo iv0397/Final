@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 2em;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="submit"] {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .car-item {
+    text-align: center;
+  }
+  
+  .car-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .PDvGL.q8cvFf {
+    background-color: #2a1aa1;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .row-container {
+    text-align: center;
+  }
+  .kCmrbf {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .gmap-image {
+    display: block;
+    margin: 0 auto;
+    width: 1110px;
+    height: auto;
+    margin-bottom: 10px;
+    float: right;
+  margin-left: 10px; /* 調整圖片與文字之間的間距 */
+  }
+
+  pcar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+bcar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+mbcar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+acar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+mcar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+lcar-image {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+}

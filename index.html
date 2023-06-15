@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CYG</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- 引入導覽列 -->
+  <div id="navbar-placeholder"></div>
+  <script>
+    $(function(){
+      $("#navbar-placeholder").load("navbar.html");
+    });
+  </script>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">歡迎來到全網最大二手車網站</h1>
+      <p class="lead">為你找到你的理想車</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="porsche.html">
+          <img src="Porsche.jpg" alt="Porsche" class="car-image">
+          <h4>Porsche</h4>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="bmw.html">
+          <img src="BMW.png" alt="BMW" class="car-image">
+          <h4>BMW</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="benz.html">
+          <img src="Benz.png" alt="Benz" class="car-image">
+          <h4>Benz</h4>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="audi.html">
+          <img src="Audi.jpg" alt="Audi" class="car-image">
+          <h4>Audi</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="maserati.html">
+          <img src="Maserati.png" alt="Maserati" class="car-image">
+          <h4>Maserati</h4>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="car-item">
+        <a href="lexus.html">
+          <img src="Lexus.png" alt="Lexus" class="car-image">
+          <h4>Lexus</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
